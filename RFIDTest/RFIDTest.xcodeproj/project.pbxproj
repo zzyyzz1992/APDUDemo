@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8A11771CB41A5000621F9A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A11761CB41A5000621F9A /* main.c */; };
+		5A8A117B1CB41A9000621F9A /* libctacs.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A11661CB4152A00621F9A /* libctacs.1.dylib */; };
+		5A8A117C1CB41A9400621F9A /* libctacs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A11671CB4152A00621F9A /* libctacs.a */; };
+		5A8A117D1CB41A9800621F9A /* libctacs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A11681CB4152A00621F9A /* libctacs.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A8A11721CB41A5000621F9A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A8A11641CB4151300621F9A /* ct_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ct_api.h; path = ../RFIDTest/ct_api.h; sourceTree = "<group>"; };
+		5A8A11661CB4152A00621F9A /* libctacs.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libctacs.1.dylib; path = /Users/zzy/Documents/workspace_BJTU/RFIDTest/RFIDTest/lib/libctacs.1.dylib; sourceTree = "<absolute>"; };
+		5A8A11671CB4152A00621F9A /* libctacs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libctacs.a; path = /Users/zzy/Documents/workspace_BJTU/RFIDTest/RFIDTest/lib/libctacs.a; sourceTree = "<absolute>"; };
+		5A8A11681CB4152A00621F9A /* libctacs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libctacs.dylib; path = /Users/zzy/Documents/workspace_BJTU/RFIDTest/RFIDTest/lib/libctacs.dylib; sourceTree = "<absolute>"; };
+		5A8A116F1CB416D300621F9A /* ctacs.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ctacs.ini; path = RFIDTest/ctacs.ini; sourceTree = "<group>"; };
+		5A8A11741CB41A5000621F9A /* RFIDTestC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RFIDTestC; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8A11761CB41A5000621F9A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A8A11711CB41A5000621F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8A117C1CB41A9400621F9A /* libctacs.a in Frameworks */,
+				5A8A117B1CB41A9000621F9A /* libctacs.1.dylib in Frameworks */,
+				5A8A117D1CB41A9800621F9A /* libctacs.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A8A11511CB414EE00621F9A = {
+			isa = PBXGroup;
+			children = (
+				5A8A11751CB41A5000621F9A /* RFIDTestC */,
+				5A8A115B1CB414EE00621F9A /* Products */,
+				5A8A116F1CB416D300621F9A /* ctacs.ini */,
+			);
+			sourceTree = "<group>";
+		};
+		5A8A115B1CB414EE00621F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A8A11741CB41A5000621F9A /* RFIDTestC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A8A11751CB41A5000621F9A /* RFIDTestC */ = {
+			isa = PBXGroup;
+			children = (
+				5A8A11641CB4151300621F9A /* ct_api.h */,
+				5A8A11761CB41A5000621F9A /* main.c */,
+			);
+			path = RFIDTestC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A8A11731CB41A5000621F9A /* RFIDTestC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8A117A1CB41A5000621F9A /* Build configuration list for PBXNativeTarget "RFIDTestC" */;
+			buildPhases = (
+				5A8A11701CB41A5000621F9A /* Sources */,
+				5A8A11711CB41A5000621F9A /* Frameworks */,
+				5A8A11721CB41A5000621F9A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFIDTestC;
+			productName = RFIDTestC;
+			productReference = 5A8A11741CB41A5000621F9A /* RFIDTestC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A8A11521CB414EE00621F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zeyang Zhang";
+				TargetAttributes = {
+					5A8A11731CB41A5000621F9A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5A8A11551CB414EE00621F9A /* Build configuration list for PBXProject "RFIDTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A8A11511CB414EE00621F9A;
+			productRefGroup = 5A8A115B1CB414EE00621F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A8A11731CB41A5000621F9A /* RFIDTestC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A8A11701CB41A5000621F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8A11771CB41A5000621F9A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A8A115F1CB414EE00621F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5A8A11601CB414EE00621F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A8A11781CB41A5000621F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RFIDTest/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A8A11791CB41A5000621F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RFIDTest/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A8A11551CB414EE00621F9A /* Build configuration list for PBXProject "RFIDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8A115F1CB414EE00621F9A /* Debug */,
+				5A8A11601CB414EE00621F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8A117A1CB41A5000621F9A /* Build configuration list for PBXNativeTarget "RFIDTestC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8A11781CB41A5000621F9A /* Debug */,
+				5A8A11791CB41A5000621F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A8A11521CB414EE00621F9A /* Project object */;
+}
