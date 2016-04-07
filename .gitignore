@@ -6,3 +6,11 @@
 *.xcuserstate
 
 *.xcindexdb
+
+RFIDTest/DerivedData/RFIDTest/Index/Debug/macosx10.11-x86_64/RFIDTest.xcindex/db.xcindexdb
+
+RFIDTest/DerivedData/RFIDTest/Index/Debug/macosx10.11-x86_64/RFIDTest.xcindex/db.xcindexdb-shm
+
+RFIDTest/DerivedData/RFIDTest/Index/Debug/macosx10.11-x86_64/RFIDTest.xcindex/db.xcindexdb-wal
+
+RFIDTest/RFIDTest.xcodeproj/project.xcworkspace/xcuserdata/zzy.xcuserdatad/UserInterfaceState.xcuserstate
