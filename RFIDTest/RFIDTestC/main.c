@@ -11,8 +11,9 @@ int main(int argc, char *argv[])
     unsigned short dad;
     
     // REQUEST ICC
-    //         unsigned char command[] = { 0xFF, 0x86, 0x00, 0x00, 0x05,0x01,0x00,0x04,0x60,0x00 };
-    unsigned char command[] = { 0xFF, 0xB0, 0x00, 0x04, 0x00 };
+    unsigned char command[] = { 0xFF, 0xCA, 0x00, 0x00, 0x00 };
+//    unsigned char command[] = { 0xFF, 0x00, 0x48, 0x00, 0x00 };//%c
+    
     unsigned short lenc = sizeof(command);
     
     unsigned char response[300];
@@ -41,7 +42,7 @@ int main(int argc, char *argv[])
         // Display response
         printf("Response: ");
         for (int i = 0; i < lenr; i++)
-            printf("%02X ", response[i]);
+            printf("%02X", response[i]);
         printf("\n");
     }
     
